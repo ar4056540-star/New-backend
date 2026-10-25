@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Private server-side application data
+backend/data/*.json
+backend/data/media/*
+!backend/data/.gitkeep
+!backend/data/media/.gitkeep
+tests/last-run.json
